@@ -1,11 +1,11 @@
 mod animals;
-mod zee;
+mod zoo;
 
 fn main() {
     println!("{}", animals::bird::explanation());
     println!("{}", animals::dog::explanation());
     println!("{}", animals::cat::explanation());
 
-    use zee::breeder;
+    use zoo::breeder;
     breeder::greet();
 }
